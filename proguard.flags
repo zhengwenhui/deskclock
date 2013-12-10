@@ -1,0 +1,10 @@
+-keepclassmembers class com.yesterday.like.deskclock.DeskClock {
+  *** clockButtonsOnClick(...);
+}
+-keep class com.yesterday.like.deskclock.timer.TimerListItem {
+  *** setAnimatedHeight(...);
+}
+
+-keep class com.yesterday.like.deskclock.widget.multiwaveview.* {
+  *;
+}
